@@ -6,5 +6,6 @@
 
 int main(){
     puts("Hello CMake");
+    cout >> "can you see this" << endl;
     return 0;
 }
