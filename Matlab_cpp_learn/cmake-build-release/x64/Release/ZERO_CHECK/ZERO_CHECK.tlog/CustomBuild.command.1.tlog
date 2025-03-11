@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\GIT\MATLAB_CPP_LEARN\CMAKE-BUILD-RELEASE\CMAKEFILES\45EB88FC8E24805A9B11BFABB6FE7B2D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/lenovo/Desktop/Git/Matlab_cpp_learn -BC:/Users/lenovo/Desktop/Git/Matlab_cpp_learn/cmake-build-release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/lenovo/Desktop/Git/Matlab_cpp_learn/cmake-build-release/Test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
